@@ -6,11 +6,11 @@ namespace TeamsService.Controller;
 
 [ApiController]
 [Route("api/[controller]")]
-public class MemberController : ControllerBase
+public class MembersController : ControllerBase
 {
     private readonly ITeamRepository _repository;
 
-    public MemberController(ITeamRepository repository)
+    public MembersController(ITeamRepository repository)
     {
         _repository = repository;
     }
