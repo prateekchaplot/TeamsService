@@ -1,4 +1,4 @@
-using API.Persistence;
+using TeamsService.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 

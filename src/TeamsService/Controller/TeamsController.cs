@@ -1,8 +1,8 @@
-using API.Models;
-using API.Persistence;
+using TeamsService.Models;
+using TeamsService.Persistence;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API.Controllers;
+namespace TeamsService.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

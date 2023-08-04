@@ -1,5 +1,5 @@
-using API.Models;
-using API.Persistence;
+using TeamsService.Models;
+using TeamsService.Persistence;
 
 namespace Tests;
 

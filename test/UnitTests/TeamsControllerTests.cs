@@ -1,5 +1,5 @@
-using API.Controllers;
-using API.Models;
+using TeamsService.Controllers;
+using TeamsService.Models;
 using Microsoft.AspNetCore.Mvc;
 using Tests;
 

@@ -1,4 +1,4 @@
-namespace API.Models;
+namespace TeamsService.Models;
 
 public class Member
 {

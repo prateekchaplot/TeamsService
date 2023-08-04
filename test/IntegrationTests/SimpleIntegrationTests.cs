@@ -1,5 +1,5 @@
 using System.Text;
-using API.Models;
+using TeamsService.Models;
 using Newtonsoft.Json;
 
 namespace IntegrationTests;

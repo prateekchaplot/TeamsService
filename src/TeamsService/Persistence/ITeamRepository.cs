@@ -1,6 +1,6 @@
-using API.Models;
+using TeamsService.Models;
 
-namespace API.Persistence;
+namespace TeamsService.Persistence;
 
 public interface ITeamRepository
 {
