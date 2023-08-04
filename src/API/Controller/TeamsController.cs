@@ -35,10 +35,10 @@ public class TeamsController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult CreateTeam(Team team)
+    public IActionResult CreateTeam(Team t)
     {
-        var t = _repository.Add(team);
-        return Created(nameof(GetTeam) + t.ID, t);
+        var team = _repository.Add(t);
+        return CreatedAtAction(nameof(GetTeam), new { id = team.ID }, team);
     }
 
     [HttpPut("{id}")]
